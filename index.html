@@ -3,1170 +3,1228 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Lebenslauf – Volodymyr Vyshniak</title>
+    <title>Volodymyr Vyshniak – Lebenslauf</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-    <!-- Перемикач мов -->
-    <nav
-      class="language-switcher"
-      aria-label="Sprache auswählen"
-      data-i18n-aria-label="languageSelector"
+    <!-- =========================================================
+         DEUTSCHE VERSION
+         Alle deutschen Texte werden nur in diesem Block geändert.
+         Das Foto kann unten über src="img/Foto2024.jpg" geändert werden.
+         ========================================================= -->
+    <section
+      class="language-page is-active"
+      data-language-page="de"
+      data-page-title="Volodymyr Vyshniak – Lebenslauf"
+      lang="de"
     >
-      <button
-        class="language-button active"
-        type="button"
-        data-lang="de"
-        aria-pressed="true"
-      >
-        DE
-      </button>
+      <div class="wrapper">
+        <nav class="language-switcher" aria-label="Sprache auswählen">
+          <button
+            class="language-button is-active"
+            type="button"
+            data-language="de"
+            aria-pressed="true"
+          >
+            DE
+          </button>
+          <button
+            class="language-button"
+            type="button"
+            data-language="ua"
+            aria-pressed="false"
+          >
+            UA
+          </button>
+          <button
+            class="language-button"
+            type="button"
+            data-language="en"
+            aria-pressed="false"
+          >
+            EN
+          </button>
+        </nav>
 
-      <button
-        class="language-button"
-        type="button"
-        data-lang="uk"
-        aria-pressed="false"
-      >
-        UA
-      </button>
+        <!-- Main content -->
+        <div class="main-content">
+          <!-- My info -->
+          <div class="my-info">
+            <h2 class="my-profession">Experimentalphysiker | Senior Lecturer</h2>
+            <h1 class="my-name">Volodymyr Vyshniak</h1>
 
-      <button
-        class="language-button"
-        type="button"
-        data-lang="en"
-        aria-pressed="false"
-      >
-        EN
-      </button>
-    </nav>
+            <p class="my-descr-vstup" lang="de">
+              Ich bin Experimentalphysiker aus der Ukraine mit Berufserfahrung an
+              Schulen, an einem Institut und an einer Universität. Am Institut für
+              Metallphysik war ich im Bereich der Nanotechnologie tätig. An der
+              Universität für Lebensmitteltechnologie war ich als Senior Lecturer
+              tätig, habe Physik unterrichtet und Bienenprodukte erforscht. Mein
+              Ziel ist eine qualifikationsgerechte Tätigkeit in Deutschland.
+            </p>
+          </div>
 
-    <!-- Wrapper -->
-    <div class="wrapper">
-      <!-- Main content -->
-      <main class="main-content">
-        <!-- My info -->
-        <div class="my-info">
-          <h2 class="my-profession" data-i18n="profession">
-            Experimentalphysiker | Senior Lecturer
-          </h2>
+          <!-- My projects -->
+          <div class="my-projects-container">
+            <h3 class="my-projects-title">Wissenschaftliches Profil</h3>
 
-          <h1 class="my-name">Volodymyr Vyshniak</h1>
+            <ol class="my-projects-list">
+              <li class="my-projects-item">
+                <a
+                  class="my-projects-item-link"
+                  href="https://www.scopus.com/authid/detail.uri?authorId=37014106300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Scopus-Profil
+                </a>
+                <span class="my-projects-item-tech">
+                  [Dokumente: 7; h-Index: 5]
+                </span>
+              </li>
 
-          <p class="my-descr-vstup" data-i18n="intro">
-            Ich bin Experimentalphysiker aus der Ukraine mit Berufserfahrung an
-            Schulen, an einem Institut und an einer Universität. Am Institut für
-            Metallphysik war ich im Bereich der Nanotechnologie tätig. An der
-            Universität für Lebensmitteltechnologie war ich als Senior Lecturer
-            tätig, habe Physik unterrichtet und Bienenprodukte erforscht. Mein
-            Ziel ist eine qualifikationsgerechte Tätigkeit in Deutschland.
-          </p>
-        </div>
+              <li class="my-projects-item">
+                <a
+                  class="my-projects-item-link"
+                  href="https://scholar.google.com.ua/citations?user=kevme5oAAAAJ&hl=ua"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google-Scholar-Profil
+                </a>
+                <span class="my-projects-item-tech">[h-Index: 7]</span>
+              </li>
+            </ol>
+          </div>
 
-        <!-- My projects -->
-        <div class="my-projects-container">
-          <h3 class="my-projects-title" data-i18n="scientificProfile">
-            Wissenschaftliches Profil
-          </h3>
+          <!-- Work experience -->
+          <h3 class="work-experience-title">Berufserfahrung</h3>
 
-          <ol class="my-projects-list">
-            <li class="my-projects-item">
-              <a
-                class="my-projects-item-link"
-                href="https://www.scopus.com/authid/detail.uri?authorId=37014106300"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-i18n="scopusProfile"
-              >
-                Scopus-Profil
-              </a>
-
-              <span
-                class="my-projects-item-tech"
-                data-i18n="scopusStats"
-              >
-                [Dokumente: 7; h-Index: 5]
-              </span>
-            </li>
-
-            <li class="my-projects-item">
-              <a
-                class="my-projects-item-link"
-                href="https://scholar.google.com.ua/citations?user=kevme5oAAAAJ&hl=ua"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-i18n="scholarProfile"
-              >
-                Google-Scholar-Profil
-              </a>
-
-              <span class="my-projects-item-tech">[h-Index: 7]</span>
-            </li>
-          </ol>
-        </div>
-
-        <!-- Work experience -->
-        <h3 class="work-experience-title" data-i18n="workExperience">
-          Berufserfahrung
-        </h3>
-
-        <!-- Company A -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="deliveryDriver">Auslieferungsfahrer</span>
-
-            <a
-              class="company-link"
-              href="https://www.gruemel.de/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Offizielle Website"
-              data-i18n-title="officialWebsite"
-            >
-              GRÜMEL gGmbH
-            </a>
-          </h4>
-
-          <p class="work-experience-period">
-            09.2024 – <span data-i18n="present">heute</span>
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="fuldaGermany">Fulda, Deutschland</span>
-          </p>
-
-          <ul class="work-experience-duties-list">
-            <li
-              class="work-experience-duties-item"
-              data-i18n="deliveryDuty1"
-            >
-              Auslieferung von Speisen an Schulen und Kindergärten
-            </li>
-
-            <li
-              class="work-experience-duties-item"
-              data-i18n="deliveryDuty2"
-            >
-              Sicherstellung eines pünktlichen und ordnungsgemäßen Transports
-            </li>
-          </ul>
-        </div>
-
-        <!-- Company B -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="germanB2Course">
-              Berufssprachkurs (Deutsch B2)
-            </span>
-
-            <span class="company-name">
-              Bildungsverein Kreidekreis e. V.
-            </span>
-          </h4>
-
-          <p class="work-experience-period">
-            09.2025 – 03.2026
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="fuldaGermany">Fulda, Deutschland</span>
-          </p>
-        </div>
-
-        <!-- Company C -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="integrationCourse">
-              Integrationskurs B1
-            </span>
-
-            <span class="company-name">
-              Bildungsverein Kreidekreis e. V.
-            </span>
-          </h4>
-
-          <p class="work-experience-period">
-            10.2023 – 03.2024
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="fuldaGermany">Fulda, Deutschland</span>
-          </p>
-        </div>
-
-        <!-- Company D -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="integrationCourse">
-              Integrationskurs B1
-            </span>
-
-            <span class="company-name">Sprachschule Inlingua</span>
-          </h4>
-
-          <p class="work-experience-period">
-            11.2022 – 07.2023
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="fuldaGermany">Fulda, Deutschland</span>
-          </p>
-        </div>
-
-        <!-- University -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="physicsLecturer">Physikdozent</span>
-
-            <a
-              class="company-link"
-              href="https://nuft.edu.ua/en/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Offizielle Website"
-              data-i18n="nuft"
-              data-i18n-title="officialWebsite"
-            >
-              Nationale Universität für Lebensmitteltechnologie
-            </a>
-          </h4>
-
-          <p class="work-experience-period">
-            10.2015 – 12.2023
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="kyivUkraine">Kiew, Ukraine</span>
-          </p>
-
-          <ul class="work-experience-duties-list">
-            <li
-              class="work-experience-duties-item"
-              data-i18n="universityDuty1"
-            >
-              Senior Lecturer am Lehrstuhl für Physik
-            </li>
-
-            <li
-              class="work-experience-duties-item"
-              data-i18n="universityDuty2"
-            >
-              Durchführung von Vorlesungs-, Praxis- und Laborveranstaltungen im
-              Fach „Physik“
-            </li>
-
-            <li
-              class="work-experience-duties-item"
-              data-i18n="universityDuty3"
-            >
-              Wissenschaftlicher Forschungsbereich: „Physikalische Methoden zur
-              Kontrolle von Qualitäts- und Sicherheitsparametern von
-              Imkereiprodukten“
-            </li>
-
-            <li
-              class="work-experience-duties-item"
-              data-i18n="universityDuty4"
-            >
-              Verantwortlich für Fernunterricht und Bildungsarbeit am
-              Fachbereich
-            </li>
-          </ul>
-        </div>
-
-        <!-- Arbeitsgruppe -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="workingGroupMember">
-              Mitglied der Arbeitsgruppe
-            </span>
-
-            <span
-              class="company-name"
-              data-i18n="beekeepingDevelopment"
-            >
-              zur Entwicklung der Bienenzucht
-            </span>
-          </h4>
-
-          <p class="work-experience-period">
-            01.2020 – 05.2024
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="kyivUkraine">Kiew, Ukraine</span>
-          </p>
-
-          <ul class="work-experience-duties-list">
-            <li
-              class="work-experience-duties-item"
-              data-i18n="workingGroupDuty"
-            >
-              Mitglied der Arbeitsgruppe zur Entwicklung der Bienenzucht beim
-              Ministerium für Agrarpolitik und Ernährung der Ukraine
-            </li>
-          </ul>
-        </div>
-
-        <!-- Institute -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="researchAssociate">
-              Wissenschaftlicher Mitarbeiter
-            </span>
-
-            <a
-              class="company-link"
-              href="https://www.imp.kiev.ua/?lang=eng&a="
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Offizielle Website"
-              data-i18n="instituteMetalPhysics"
-              data-i18n-title="officialWebsite"
-            >
-              Institut für Metallphysik
-            </a>
-          </h4>
-
-          <p class="work-experience-period">
-            09.2004 – 02.2014
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="kyivUkraine">Kiew, Ukraine</span>
-          </p>
-
-          <ul class="work-experience-duties-list">
-            <li
-              class="work-experience-duties-item"
-              data-i18n="instituteDuty1"
-            >
-              Mitarbeiter in der Abteilung für
-              Festkörperoberflächenspektroskopie
-            </li>
-
-            <li class="work-experience-duties-item">
-              <span data-i18n="spmLab">SPM-Labor</span>
-
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Auslieferungsfahrer
               <a
                 class="company-link"
-                href="https://spm.kiev.ua/index_en.html"
+                href="https://www.gruemel.de/"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="SPM Website"
-                data-i18n-title="spmWebsite"
+                title="Offizielle Website"
               >
-                https://spm.kiev.ua/
+                GRÜMEL gGmbH
               </a>
-            </li>
-
-            <li class="work-experience-duties-item">
-              <span data-i18n="instituteDuty2">
-                Durchführung und Wartung von Experimenten im Ultrahochvakuum
-                (UHV) mit dem Rastersondenmikroskop JSPM-4610 (Japan)
-              </span>
-
-              <ul>
-                <li data-i18n="stm">
-                  Rastertunnelmikroskopie (STM) von Halbleiterstrukturen
-                </li>
-
-                <li data-i18n="xps">
-                  Röntgenphotoelektronenspektroskopie (XPS)
-                </li>
-
-                <li data-i18n="afm">
-                  Rasterkraftmikroskopie (AFM)
-                </li>
-              </ul>
-            </li>
-
-            <li
-              class="work-experience-duties-item"
-              data-i18n="instituteDuty3"
-            >
-              Verantwortlich für Geräte und Ausstattung des SPM-Labors
-            </li>
-          </ul>
-        </div>
-
-        <!-- School 1 -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="mathTeacher">Lehrer für Mathematik</span>
-
-            <span class="company-name" data-i18n="gymnasium">
-              Gymnasium
-            </span>
-          </h4>
-
-          <p class="work-experience-period">
-            09.2002 – 01.2004
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="dmytrivkaUkraine">
-              Dmitriwka, Ukraine
-            </span>
-          </p>
-
-          <ul class="work-experience-duties-list">
-            <li
-              class="work-experience-duties-item"
-              data-i18n="trustedTeacher"
-            >
-              Vertrauenslehrer
-            </li>
-          </ul>
-        </div>
-
-        <!-- School 2 -->
-        <div class="work-experience-container">
-          <h4 class="work-experience-company">
-            <span data-i18n="physicsTeacher">Lehrer für Physik</span>
-
-            <span class="company-name" data-i18n="gymnasium">
-              Gymnasium
-            </span>
-          </h4>
-
-          <p class="work-experience-period">
-            09.2002 – 09.2003
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="muzychiUkraine">
-              Muzychi, Ukraine
-            </span>
-          </p>
-
-          <ul class="work-experience-duties-list">
-            <li
-              class="work-experience-duties-item"
-              data-i18n="trustedTeacher"
-            >
-              Vertrauenslehrer
-            </li>
-          </ul>
-        </div>
-
-        <!-- Education -->
-        <div class="education-container">
-          <h3 class="work-experience-title" data-i18n="education">
-            Bildung
-          </h3>
-
-          <h4 class="work-experience-company">
-            <a
-              class="company-link"
-              href="https://knu.ua/en/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Offizielle Website"
-              data-i18n="tarasShevchenkoUniversity"
-              data-i18n-title="officialWebsite"
-            >
-              Nationale Taras-Schewtschenko-Universität
-            </a>
-          </h4>
-
-          <h4
-            class="work-experience-company"
-            data-i18n="physicistTeacher"
-          >
-            Physiker, Lehrer
-          </h4>
-
-          <p class="work-experience-period">
-            09.1997 – 06.2003
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="kyivUkraine">Kiew, Ukraine</span>
-          </p>
-
-          <p
-            class="my-descr"
-            data-i18n="universityEducationDescription"
-          >
-            Schloss im Jahr 2003 das Studium an der Nationalen
-            Taras-Schewtschenko-Universität Kiew in der Studienrichtung
-            „Festkörperphysik“ erfolgreich ab und erwarb die Qualifikation
-            „Physiker und Lehrer“.
-          </p>
-
-          <h4 class="work-experience-company">
-            <span class="company-name" data-i18n="gymnasium">
-              Gymnasium
-            </span>
-          </h4>
-
-          <p class="work-experience-period">
-            09.1986 – 05.1997
-
-            <span class="work-experience-separator">|</span>
-
-            <span data-i18n="shpytkyUkraine">
-              Shpytky, Ukraine
-            </span>
-          </p>
-
-          <p class="my-descr" data-i18n="schoolGraduation">
-            Abschluss: Hochschulreife
-          </p>
-        </div>
-      </main>
-
-      <!-- Sidebar -->
-      <aside class="sidebar">
-        <img
-          src="img/Foto2024.jpg"
-          alt="Photo"
-          data-i18n-alt="photoAlt"
-        />
-
-        <div class="sidebar-content">
-          <!-- Contacts -->
-          <div class="contacts-container">
-            <h3
-              class="contacts-title"
-              data-i18n="contactInformation"
-            >
-              Kontaktinformationen
-            </h3>
-
-            <p class="contacts-item">
-              <span class="contacts-type" data-i18n="phone">
-                Telefon:
-              </span>
-
-              <a
-                class="contacts-link"
-                href="tel:+4915151757482"
-              >
-                +49 151 51757482
-              </a>
+            </h4>
+            <p class="work-experience-period">
+              09.2024 – heute
+              <span class="work-experience-separator">|</span> Fulda, Deutschland
             </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Auslieferung von Speisen an Schulen und Kindergärten
+              </li>
+              <li class="work-experience-duties-item">
+                Sicherstellung eines pünktlichen und ordnungsgemäßen Transports
+              </li>
+            </ul>
+          </div>
 
-            <p class="contacts-item">
-              <span class="contacts-type" data-i18n="email">
-                E-Mail:
-              </span>
-
-              <a
-                class="contacts-link"
-                href="mailto:vyshniak.de@gmail.com"
-              >
-                vyshniak.de@gmail.com
-              </a>
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Berufssprachkurs (Deutsch B2)
+              <span class="company-name">Bildungsverein Kreidekreis e. V.</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2025 – 03.2026
+              <span class="work-experience-separator">|</span> Fulda, Deutschland
             </p>
           </div>
 
-          <!-- Lebenslauf -->
-          <div class="skills-container">
-            <h3 class="skills-title" data-i18n="resume">
-              Lebenslauf
-            </h3>
-
-            <a
-              class="contacts-link download-link lebenslauf"
-              href="document/Vyshniak_Lebenslauf.pdf"
-              target="_blank"
-              download
-            >
-              Vyshniak Lebenslauf.pdf
-            </a>
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Integrationskurs B1
+              <span class="company-name">Bildungsverein Kreidekreis e. V.</span>
+            </h4>
+            <p class="work-experience-period">
+              10.2023 – 03.2024
+              <span class="work-experience-separator">|</span> Fulda, Deutschland
+            </p>
           </div>
 
-          <!-- Zeugnisbewertung -->
-          <div class="skills-container">
-            <h3
-              class="skills-title"
-              data-i18n="certificateEvaluation"
-            >
-              Zeugnisbewertung
-            </h3>
-
-            <a
-              class="contacts-link download-link"
-              href="document/Zeugnisbewertung_signiert_A.pdf"
-              target="_blank"
-              download
-              data-i18n="bachelorEvaluation"
-            >
-              Zeugnisbewertung Bachelor.pdf
-            </a>
-
-            <a
-              class="contacts-link download-link"
-              href="document/Zeugnisbewertung_signiert_B.pdf"
-              target="_blank"
-              download
-              data-i18n="specialistEvaluation"
-            >
-              Zeugnisbewertung Spezialist.pdf
-            </a>
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Integrationskurs B1
+              <span class="company-name">Sprachschule Inlingua</span>
+            </h4>
+            <p class="work-experience-period">
+              11.2022 – 07.2023
+              <span class="work-experience-separator">|</span> Fulda, Deutschland
+            </p>
           </div>
 
-          <!-- Additional info -->
-          <div class="skills-container">
-            <h3
-              class="skills-title"
-              data-i18n="additionalInformation"
-            >
-              Zusätzliche Informationen
-            </h3>
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Physikdozent
+              <a
+                class="company-link"
+                href="https://nuft.edu.ua/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Offizielle Website"
+              >
+                Nationale Universität für Lebensmitteltechnologie
+              </a>
+            </h4>
+            <p class="work-experience-period">
+              10.2015 – 12.2023
+              <span class="work-experience-separator">|</span> Kiew, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Senior Lecturer am Lehrstuhl für Physik
+              </li>
+              <li class="work-experience-duties-item">
+                Durchführung von Vorlesungs-, Praxis- und Laborveranstaltungen im
+                Fach „Physik“
+              </li>
+              <li class="work-experience-duties-item">
+                Wissenschaftlicher Forschungsbereich: „Physikalische Methoden zur
+                Kontrolle von Qualitäts- und Sicherheitsparametern von
+                Imkereiprodukten“
+              </li>
+              <li class="work-experience-duties-item">
+                Verantwortlich für Fernunterricht und Bildungsarbeit am Fachbereich
+              </li>
+            </ul>
+          </div>
 
-            <a
-              class="contacts-link"
-              href="https://drive.google.com/drive/folders/1Ff5OkFsdOqgw4dH5H22rgLsrV0dis4WO?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Google Drive
-            </a>
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Mitglied der Arbeitsgruppe
+              <span class="company-name">zur Entwicklung der Bienenzucht</span>
+            </h4>
+            <p class="work-experience-period">
+              01.2020 – 05.2024
+              <span class="work-experience-separator">|</span> Kiew, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Mitglied der Arbeitsgruppe zur Entwicklung der Bienenzucht beim
+                Ministerium für Agrarpolitik und Ernährung der Ukraine
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Wissenschaftlicher Mitarbeiter
+              <a
+                class="company-link"
+                href="https://www.imp.kiev.ua/?lang=eng&a="
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Offizielle Website"
+              >
+                Institut für Metallphysik
+              </a>
+            </h4>
+            <p class="work-experience-period">
+              09.2004 – 02.2014
+              <span class="work-experience-separator">|</span> Kiew, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Mitarbeiter in der Abteilung für Festkörperoberflächenspektroskopie
+              </li>
+              <li class="work-experience-duties-item">
+                SPM-Labor
+                <a
+                  class="company-link"
+                  href="https://spm.kiev.ua/index_en.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="SPM Website"
+                >
+                  https://spm.kiev.ua/
+                </a>
+              </li>
+              <li class="work-experience-duties-item">
+                Durchführung und Wartung von Experimenten im Ultrahochvakuum (UHV)
+                mit dem Rastersondenmikroskop JSPM-4610 (Japan)
+                <ul>
+                  <li>Rastertunnelmikroskopie (STM) von Halbleiterstrukturen</li>
+                  <li>Röntgenphotoelektronenspektroskopie (XPS)</li>
+                  <li>Rasterkraftmikroskopie (AFM)</li>
+                </ul>
+              </li>
+              <li class="work-experience-duties-item">
+                Verantwortlich für Geräte und Ausstattung des SPM-Labors
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Lehrer für Mathematik <span class="company-name">Gymnasium</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2002 – 01.2004
+              <span class="work-experience-separator">|</span> Dmitriwka, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">Vertrauenslehrer</li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Lehrer für Physik <span class="company-name">Gymnasium</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2002 – 09.2003
+              <span class="work-experience-separator">|</span> Muzychi, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">Vertrauenslehrer</li>
+            </ul>
+          </div>
+
+          <!-- Education -->
+          <div class="education-container">
+            <h3 class="work-experience-title">Bildung</h3>
+
+            <h4 class="work-experience-company">
+              <a
+                class="company-link"
+                href="https://knu.ua/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Offizielle Website"
+              >
+                Nationale Taras-Schewtschenko-Universität
+              </a>
+            </h4>
+            <h4 class="work-experience-company">Physiker, Lehrer</h4>
+            <p class="work-experience-period">
+              09.1997 – 06.2003
+              <span class="work-experience-separator">|</span> Kiew, Ukraine
+            </p>
+            <p class="my-descr">
+              Schloss im Jahr 2003 das Studium an der Nationalen
+              Taras-Schewtschenko-Universität Kiew in der Studienrichtung
+              „Festkörperphysik“ erfolgreich ab und erwarb die Qualifikation
+              „Physiker und Lehrer“.
+            </p>
+
+            <h4 class="work-experience-company">
+              <span class="company-name">Gymnasium</span>
+            </h4>
+            <p class="work-experience-period">
+              09.1986 – 05.1997
+              <span class="work-experience-separator">|</span> Shpytky, Ukraine
+            </p>
+            <p class="my-descr">Abschluss: Hochschulreife</p>
           </div>
         </div>
-      </aside>
-    </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <!-- Foto nur für die deutsche Version -->
+          <img src="img/Foto2024.jpg" alt="Foto von Volodymyr Vyshniak" />
+          <p class="mobile-photo-name">Volodymyr Vyshniak</p>
+
+          <div class="sidebar-content">
+            <div class="contacts-container">
+              <h3 class="contacts-title">Kontaktinformationen</h3>
+              <p class="contacts-item">
+                <span class="contacts-type">Telefon:</span>
+                <a class="contacts-link" href="tel:+4915151757482">
+                  +49 151 51757482
+                </a>
+              </p>
+              <p class="contacts-item">
+                <span class="contacts-type">E-Mail:</span>
+                <a class="contacts-link" href="mailto:vyshniak.de@gmail.com">
+                  vyshniak.de@gmail.com
+                </a>
+              </p>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Lebenslauf</h3>
+              <a
+                class="contacts-link download-link lebenslauf"
+                href="document/Vyshniak_Lebenslauf.pdf"
+                target="_blank"
+                download
+              >
+                Vyshniak Lebenslauf.pdf
+              </a>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Zeugnisbewertung</h3>
+              <a
+                class="contacts-link download-link"
+                href="document/Zeugnisbewertung_signiert_A.pdf"
+                target="_blank"
+                download
+              >
+                Zeugnisbewertung Bachelor.pdf
+              </a>
+              <a
+                class="contacts-link download-link"
+                href="document/Zeugnisbewertung_signiert_B.pdf"
+                target="_blank"
+                download
+              >
+                Zeugnisbewertung Spezialist.pdf
+              </a>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Zusätzliche Informationen</h3>
+              <a
+                class="contacts-link"
+                href="https://drive.google.com/drive/folders/1Ff5OkFsdOqgw4dH5H22rgLsrV0dis4WO?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google Drive
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         УКРАЇНСЬКА ВЕРСІЯ
+         Усі українські тексти змінюються лише в цьому блоці.
+         Фото можна змінити нижче у src="img/Foto2024.jpg".
+         ========================================================= -->
+    <section
+      class="language-page"
+      data-language-page="ua"
+      data-page-title="Volodymyr Vyshniak – Резюме"
+      lang="uk"
+    >
+      <div class="wrapper">
+        <nav class="language-switcher" aria-label="Вибір мови">
+          <button
+            class="language-button"
+            type="button"
+            data-language="de"
+            aria-pressed="false"
+          >
+            DE
+          </button>
+          <button
+            class="language-button is-active"
+            type="button"
+            data-language="ua"
+            aria-pressed="true"
+          >
+            UA
+          </button>
+          <button
+            class="language-button"
+            type="button"
+            data-language="en"
+            aria-pressed="false"
+          >
+            EN
+          </button>
+        </nav>
+
+        <div class="main-content">
+          <div class="my-info">
+            <h2 class="my-profession">
+              Фізик-експериментатор | старший викладач
+            </h2>
+            <h1 class="my-name">Volodymyr Vyshniak</h1>
+
+            <p class="my-descr-vstup" lang="uk">
+              Я фізик-експериментатор з України з досвідом роботи у школах,
+              інституті та університеті. В Інституті металофізики я працював у
+              галузі нанотехнологій. У Національному університеті харчових
+              технологій я працював старшим викладачем, викладав фізику та
+              досліджував продукти бджільництва. Моя мета — працювати в Німеччині
+              за фахом і відповідно до своєї кваліфікації.
+            </p>
+          </div>
+
+          <div class="my-projects-container">
+            <h3 class="my-projects-title">Науковий профіль</h3>
+            <ol class="my-projects-list">
+              <li class="my-projects-item">
+                <a
+                  class="my-projects-item-link"
+                  href="https://www.scopus.com/authid/detail.uri?authorId=37014106300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Профіль Scopus
+                </a>
+                <span class="my-projects-item-tech">
+                  [Документів: 7; індекс Гірша: 5]
+                </span>
+              </li>
+              <li class="my-projects-item">
+                <a
+                  class="my-projects-item-link"
+                  href="https://scholar.google.com.ua/citations?user=kevme5oAAAAJ&hl=ua"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Профіль Google Scholar
+                </a>
+                <span class="my-projects-item-tech">[індекс Гірша: 7]</span>
+              </li>
+            </ol>
+          </div>
+
+          <h3 class="work-experience-title">Досвід роботи</h3>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Водій доставки
+              <a
+                class="company-link"
+                href="https://www.gruemel.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Офіційний сайт"
+              >
+                GRÜMEL gGmbH
+              </a>
+            </h4>
+            <p class="work-experience-period">
+              09.2024 – дотепер
+              <span class="work-experience-separator">|</span> Фульда, Німеччина
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Доставка страв до шкіл і дитячих садків
+              </li>
+              <li class="work-experience-duties-item">
+                Забезпечення своєчасного та належного транспортування
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Професійний мовний курс (німецька B2)
+              <span class="company-name">Bildungsverein Kreidekreis e. V.</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2025 – 03.2026
+              <span class="work-experience-separator">|</span> Фульда, Німеччина
+            </p>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Інтеграційний курс B1
+              <span class="company-name">Bildungsverein Kreidekreis e. V.</span>
+            </h4>
+            <p class="work-experience-period">
+              10.2023 – 03.2024
+              <span class="work-experience-separator">|</span> Фульда, Німеччина
+            </p>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Інтеграційний курс B1
+              <span class="company-name">Мовна школа Inlingua</span>
+            </h4>
+            <p class="work-experience-period">
+              11.2022 – 07.2023
+              <span class="work-experience-separator">|</span> Фульда, Німеччина
+            </p>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Викладач фізики
+              <a
+                class="company-link"
+                href="https://nuft.edu.ua/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Офіційний сайт"
+              >
+                Національний університет харчових технологій
+              </a>
+            </h4>
+            <p class="work-experience-period">
+              10.2015 – 12.2023
+              <span class="work-experience-separator">|</span> Київ, Україна
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Старший викладач кафедри фізики
+              </li>
+              <li class="work-experience-duties-item">
+                Проведення лекційних, практичних і лабораторних занять з фізики
+              </li>
+              <li class="work-experience-duties-item">
+                Напрям наукових досліджень: «Фізичні методи контролю параметрів
+                якості та безпечності продуктів бджільництва»
+              </li>
+              <li class="work-experience-duties-item">
+                Відповідальний за дистанційне навчання та виховну роботу на кафедрі
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Член робочої групи
+              <span class="company-name">з розвитку бджільництва</span>
+            </h4>
+            <p class="work-experience-period">
+              01.2020 – 05.2024
+              <span class="work-experience-separator">|</span> Київ, Україна
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Член робочої групи з розвитку бджільництва при Міністерстві
+                аграрної політики та продовольства України
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Науковий співробітник
+              <a
+                class="company-link"
+                href="https://www.imp.kiev.ua/?lang=eng&a="
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Офіційний сайт"
+              >
+                Інститут металофізики
+              </a>
+            </h4>
+            <p class="work-experience-period">
+              09.2004 – 02.2014
+              <span class="work-experience-separator">|</span> Київ, Україна
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Співробітник відділу спектроскопії поверхні твердого тіла
+              </li>
+              <li class="work-experience-duties-item">
+                Лабораторія SPM
+                <a
+                  class="company-link"
+                  href="https://spm.kiev.ua/index_en.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Сайт SPM"
+                >
+                  https://spm.kiev.ua/
+                </a>
+              </li>
+              <li class="work-experience-duties-item">
+                Проведення та технічне забезпечення експериментів в умовах
+                надвисокого вакууму (UHV) на сканувальному зондовому мікроскопі
+                JSPM-4610 (Японія)
+                <ul>
+                  <li>
+                    Сканувальна тунельна мікроскопія (STM) напівпровідникових
+                    структур
+                  </li>
+                  <li>Рентгенівська фотоелектронна спектроскопія (XPS)</li>
+                  <li>Атомно-силова мікроскопія (AFM)</li>
+                </ul>
+              </li>
+              <li class="work-experience-duties-item">
+                Відповідальний за прилади та обладнання лабораторії SPM
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Учитель математики <span class="company-name">Гімназія</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2002 – 01.2004
+              <span class="work-experience-separator">|</span> Дмитрівка, Україна
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">Педагог-наставник</li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Учитель фізики <span class="company-name">Гімназія</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2002 – 09.2003
+              <span class="work-experience-separator">|</span> Музичі, Україна
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">Педагог-наставник</li>
+            </ul>
+          </div>
+
+          <div class="education-container">
+            <h3 class="work-experience-title">Освіта</h3>
+            <h4 class="work-experience-company">
+              <a
+                class="company-link"
+                href="https://knu.ua/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Офіційний сайт"
+              >
+                Київський національний університет імені Тараса Шевченка
+              </a>
+            </h4>
+            <h4 class="work-experience-company">Фізик, викладач</h4>
+            <p class="work-experience-period">
+              09.1997 – 06.2003
+              <span class="work-experience-separator">|</span> Київ, Україна
+            </p>
+            <p class="my-descr">
+              У 2003 році закінчив Київський національний університет імені Тараса
+              Шевченка за спеціальністю «Фізика твердого тіла» та здобув
+              кваліфікацію «Фізик, викладач».
+            </p>
+
+            <h4 class="work-experience-company">
+              <span class="company-name">Загальноосвітня школа</span>
+            </h4>
+            <p class="work-experience-period">
+              09.1986 – 05.1997
+              <span class="work-experience-separator">|</span> Шпитьки, Україна
+            </p>
+            <p class="my-descr">Освіта: повна загальна середня</p>
+          </div>
+        </div>
+
+        <aside class="sidebar">
+          <!-- Фото лише для української версії -->
+          <img src="img/Foto2024.jpg" alt="Фото Володимира Вишняка" />
+          <p class="mobile-photo-name">Volodymyr Vyshniak</p>
+
+          <div class="sidebar-content">
+            <div class="contacts-container">
+              <h3 class="contacts-title">Контактна інформація</h3>
+              <p class="contacts-item">
+                <span class="contacts-type">Телефон:</span>
+                <a class="contacts-link" href="tel:+4915151757482">
+                  +49 151 51757482
+                </a>
+              </p>
+              <p class="contacts-item">
+                <span class="contacts-type">E-Mail:</span>
+                <a class="contacts-link" href="mailto:vyshniak.de@gmail.com">
+                  vyshniak.de@gmail.com
+                </a>
+              </p>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Резюме</h3>
+              <a
+                class="contacts-link download-link lebenslauf"
+                href="document/Vyshniak_Lebenslauf.pdf"
+                target="_blank"
+                download
+              >
+                Резюме Volodymyr Vyshniak.pdf
+              </a>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Оцінювання дипломів</h3>
+              <a
+                class="contacts-link download-link"
+                href="document/Zeugnisbewertung_signiert_A.pdf"
+                target="_blank"
+                download
+              >
+                Оцінювання диплома бакалавра.pdf
+              </a>
+              <a
+                class="contacts-link download-link"
+                href="document/Zeugnisbewertung_signiert_B.pdf"
+                target="_blank"
+                download
+              >
+                Оцінювання диплома спеціаліста.pdf
+              </a>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Додаткова інформація</h3>
+              <a
+                class="contacts-link"
+                href="https://drive.google.com/drive/folders/1Ff5OkFsdOqgw4dH5H22rgLsrV0dis4WO?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google Drive
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         ENGLISH VERSION
+         Edit all English text only inside this block.
+         The photo can be changed below in src="img/Foto2024.jpg".
+         ========================================================= -->
+    <section
+      class="language-page"
+      data-language-page="en"
+      data-page-title="Volodymyr Vyshniak – Résumé"
+      lang="en"
+    >
+      <div class="wrapper">
+        <nav class="language-switcher" aria-label="Choose language">
+          <button
+            class="language-button"
+            type="button"
+            data-language="de"
+            aria-pressed="false"
+          >
+            DE
+          </button>
+          <button
+            class="language-button"
+            type="button"
+            data-language="ua"
+            aria-pressed="false"
+          >
+            UA
+          </button>
+          <button
+            class="language-button is-active"
+            type="button"
+            data-language="en"
+            aria-pressed="true"
+          >
+            EN
+          </button>
+        </nav>
+
+        <div class="main-content">
+          <div class="my-info">
+            <h2 class="my-profession">Experimental Physicist | Senior Lecturer</h2>
+            <h1 class="my-name">Volodymyr Vyshniak</h1>
+
+            <p class="my-descr-vstup" lang="en">
+              I am an experimental physicist from Ukraine with professional
+              experience at schools, a research institute, and a university. At
+              the Institute for Metal Physics, I worked in the field of
+              nanotechnology. At the National University of Food Technologies, I
+              worked as a Senior Lecturer, taught physics, and researched bee
+              products. My goal is to obtain a position in Germany that matches my
+              qualifications.
+            </p>
+          </div>
+
+          <div class="my-projects-container">
+            <h3 class="my-projects-title">Scientific Profile</h3>
+            <ol class="my-projects-list">
+              <li class="my-projects-item">
+                <a
+                  class="my-projects-item-link"
+                  href="https://www.scopus.com/authid/detail.uri?authorId=37014106300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Scopus Profile
+                </a>
+                <span class="my-projects-item-tech">
+                  [Documents: 7; h-index: 5]
+                </span>
+              </li>
+              <li class="my-projects-item">
+                <a
+                  class="my-projects-item-link"
+                  href="https://scholar.google.com.ua/citations?user=kevme5oAAAAJ&hl=ua"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Scholar Profile
+                </a>
+                <span class="my-projects-item-tech">[h-index: 7]</span>
+              </li>
+            </ol>
+          </div>
+
+          <h3 class="work-experience-title">Work Experience</h3>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Delivery Driver
+              <a
+                class="company-link"
+                href="https://www.gruemel.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Official website"
+              >
+                GRÜMEL gGmbH
+              </a>
+            </h4>
+            <p class="work-experience-period">
+              09.2024 – present
+              <span class="work-experience-separator">|</span> Fulda, Germany
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Delivery of meals to schools and kindergartens
+              </li>
+              <li class="work-experience-duties-item">
+                Ensuring punctual and proper transportation
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Vocational Language Course (German B2)
+              <span class="company-name">Bildungsverein Kreidekreis e. V.</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2025 – 03.2026
+              <span class="work-experience-separator">|</span> Fulda, Germany
+            </p>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Integration Course B1
+              <span class="company-name">Bildungsverein Kreidekreis e. V.</span>
+            </h4>
+            <p class="work-experience-period">
+              10.2023 – 03.2024
+              <span class="work-experience-separator">|</span> Fulda, Germany
+            </p>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Integration Course B1
+              <span class="company-name">Inlingua Language School</span>
+            </h4>
+            <p class="work-experience-period">
+              11.2022 – 07.2023
+              <span class="work-experience-separator">|</span> Fulda, Germany
+            </p>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Physics Lecturer
+              <a
+                class="company-link"
+                href="https://nuft.edu.ua/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Official website"
+              >
+                National University of Food Technologies
+              </a>
+            </h4>
+            <p class="work-experience-period">
+              10.2015 – 12.2023
+              <span class="work-experience-separator">|</span> Kyiv, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Senior Lecturer at the Department of Physics
+              </li>
+              <li class="work-experience-duties-item">
+                Conducted lectures, practical classes, and laboratory classes in
+                physics
+              </li>
+              <li class="work-experience-duties-item">
+                Research area: “Physical methods for monitoring the quality and
+                safety parameters of bee products”
+              </li>
+              <li class="work-experience-duties-item">
+                Responsible for distance learning and educational work at the
+                department
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Working Group Member
+              <span class="company-name">for Beekeeping Development</span>
+            </h4>
+            <p class="work-experience-period">
+              01.2020 – 05.2024
+              <span class="work-experience-separator">|</span> Kyiv, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Member of the Working Group for Beekeeping Development under the
+                Ministry of Agrarian Policy and Food of Ukraine
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Research Associate
+              <a
+                class="company-link"
+                href="https://www.imp.kiev.ua/?lang=eng&a="
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Official website"
+              >
+                Institute for Metal Physics
+              </a>
+            </h4>
+            <p class="work-experience-period">
+              09.2004 – 02.2014
+              <span class="work-experience-separator">|</span> Kyiv, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">
+                Researcher in the Department of Solid Surface Spectroscopy
+              </li>
+              <li class="work-experience-duties-item">
+                SPM Laboratory
+                <a
+                  class="company-link"
+                  href="https://spm.kiev.ua/index_en.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="SPM website"
+                >
+                  https://spm.kiev.ua/
+                </a>
+              </li>
+              <li class="work-experience-duties-item">
+                Conducted and maintained experiments in ultra-high vacuum (UHV)
+                using a JSPM-4610 scanning probe microscope (Japan)
+                <ul>
+                  <li>
+                    Scanning tunneling microscopy (STM) of semiconductor structures
+                  </li>
+                  <li>X-ray photoelectron spectroscopy (XPS)</li>
+                  <li>Atomic force microscopy (AFM)</li>
+                </ul>
+              </li>
+              <li class="work-experience-duties-item">
+                Responsible for the instruments and equipment of the SPM Laboratory
+              </li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Mathematics Teacher <span class="company-name">Gymnasium</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2002 – 01.2004
+              <span class="work-experience-separator">|</span> Dmytrivka, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">Student adviser</li>
+            </ul>
+          </div>
+
+          <div class="work-experience-container">
+            <h4 class="work-experience-company">
+              Physics Teacher <span class="company-name">Gymnasium</span>
+            </h4>
+            <p class="work-experience-period">
+              09.2002 – 09.2003
+              <span class="work-experience-separator">|</span> Muzychi, Ukraine
+            </p>
+            <ul class="work-experience-duties-list">
+              <li class="work-experience-duties-item">Student adviser</li>
+            </ul>
+          </div>
+
+          <div class="education-container">
+            <h3 class="work-experience-title">Education</h3>
+            <h4 class="work-experience-company">
+              <a
+                class="company-link"
+                href="https://knu.ua/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Official website"
+              >
+                Taras Shevchenko National University of Kyiv
+              </a>
+            </h4>
+            <h4 class="work-experience-company">Physicist, Teacher</h4>
+            <p class="work-experience-period">
+              09.1997 – 06.2003
+              <span class="work-experience-separator">|</span> Kyiv, Ukraine
+            </p>
+            <p class="my-descr">
+              Graduated in 2003 from Taras Shevchenko National University of Kyiv
+              with a degree in Solid State Physics and obtained the qualification
+              of Physicist and Teacher.
+            </p>
+
+            <h4 class="work-experience-company">
+              <span class="company-name">Secondary School</span>
+            </h4>
+            <p class="work-experience-period">
+              09.1986 – 05.1997
+              <span class="work-experience-separator">|</span> Shpytky, Ukraine
+            </p>
+            <p class="my-descr">Qualification: General secondary education</p>
+          </div>
+        </div>
+
+        <aside class="sidebar">
+          <!-- Photo only for the English version -->
+          <img src="img/Foto2024.jpg" alt="Photo of Volodymyr Vyshniak" />
+          <p class="mobile-photo-name">Volodymyr Vyshniak</p>
+
+          <div class="sidebar-content">
+            <div class="contacts-container">
+              <h3 class="contacts-title">Contact Information</h3>
+              <p class="contacts-item">
+                <span class="contacts-type">Phone:</span>
+                <a class="contacts-link" href="tel:+4915151757482">
+                  +49 151 51757482
+                </a>
+              </p>
+              <p class="contacts-item">
+                <span class="contacts-type">E-Mail:</span>
+                <a class="contacts-link" href="mailto:vyshniak.de@gmail.com">
+                  vyshniak.de@gmail.com
+                </a>
+              </p>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Résumé</h3>
+              <a
+                class="contacts-link download-link lebenslauf"
+                href="document/Vyshniak_Lebenslauf.pdf"
+                target="_blank"
+                download
+              >
+                Volodymyr Vyshniak Resume.pdf
+              </a>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Degree Assessments</h3>
+              <a
+                class="contacts-link download-link"
+                href="document/Zeugnisbewertung_signiert_A.pdf"
+                target="_blank"
+                download
+              >
+                Bachelor's Degree Assessment.pdf
+              </a>
+              <a
+                class="contacts-link download-link"
+                href="document/Zeugnisbewertung_signiert_B.pdf"
+                target="_blank"
+                download
+              >
+                Specialist Degree Assessment.pdf
+              </a>
+            </div>
+
+            <div class="skills-container">
+              <h3 class="skills-title">Additional Information</h3>
+              <a
+                class="contacts-link"
+                href="https://drive.google.com/drive/folders/1Ff5OkFsdOqgw4dH5H22rgLsrV0dis4WO?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google Drive
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
     <script>
-      const translations = {
-        de: {
-          pageTitle: "Lebenslauf – Volodymyr Vyshniak",
-          languageSelector: "Sprache auswählen",
-
-          profession: "Experimentalphysiker | Senior Lecturer",
-
-          intro:
-            "Ich bin Experimentalphysiker aus der Ukraine mit Berufserfahrung an Schulen, an einem Institut und an einer Universität. Am Institut für Metallphysik war ich im Bereich der Nanotechnologie tätig. An der Universität für Lebensmitteltechnologie war ich als Senior Lecturer tätig, habe Physik unterrichtet und Bienenprodukte erforscht. Mein Ziel ist eine qualifikationsgerechte Tätigkeit in Deutschland.",
-
-          scientificProfile: "Wissenschaftliches Profil",
-          scopusProfile: "Scopus-Profil",
-          scopusStats: "[Dokumente: 7; h-Index: 5]",
-          scholarProfile: "Google-Scholar-Profil",
-
-          workExperience: "Berufserfahrung",
-          deliveryDriver: "Auslieferungsfahrer",
-          officialWebsite: "Offizielle Website",
-          present: "heute",
-          fuldaGermany: "Fulda, Deutschland",
-
-          deliveryDuty1:
-            "Auslieferung von Speisen an Schulen und Kindergärten",
-
-          deliveryDuty2:
-            "Sicherstellung eines pünktlichen und ordnungsgemäßen Transports",
-
-          germanB2Course: "Berufssprachkurs (Deutsch B2)",
-          integrationCourse: "Integrationskurs B1",
-
-          physicsLecturer: "Physikdozent",
-
-          nuft:
-            "Nationale Universität für Lebensmitteltechnologie",
-
-          kyivUkraine: "Kiew, Ukraine",
-
-          universityDuty1:
-            "Senior Lecturer am Lehrstuhl für Physik",
-
-          universityDuty2:
-            "Durchführung von Vorlesungs-, Praxis- und Laborveranstaltungen im Fach „Physik“",
-
-          universityDuty3:
-            "Wissenschaftlicher Forschungsbereich: „Physikalische Methoden zur Kontrolle von Qualitäts- und Sicherheitsparametern von Imkereiprodukten“",
-
-          universityDuty4:
-            "Verantwortlich für Fernunterricht und Bildungsarbeit am Fachbereich",
-
-          workingGroupMember: "Mitglied der Arbeitsgruppe",
-
-          beekeepingDevelopment:
-            "zur Entwicklung der Bienenzucht",
-
-          workingGroupDuty:
-            "Mitglied der Arbeitsgruppe zur Entwicklung der Bienenzucht beim Ministerium für Agrarpolitik und Ernährung der Ukraine",
-
-          researchAssociate: "Wissenschaftlicher Mitarbeiter",
-
-          instituteMetalPhysics: "Institut für Metallphysik",
-
-          instituteDuty1:
-            "Mitarbeiter in der Abteilung für Festkörperoberflächenspektroskopie",
-
-          spmLab: "SPM-Labor",
-          spmWebsite: "SPM Website",
-
-          instituteDuty2:
-            "Durchführung und Wartung von Experimenten im Ultrahochvakuum (UHV) mit dem Rastersondenmikroskop JSPM-4610 (Japan)",
-
-          stm:
-            "Rastertunnelmikroskopie (STM) von Halbleiterstrukturen",
-
-          xps:
-            "Röntgenphotoelektronenspektroskopie (XPS)",
-
-          afm: "Rasterkraftmikroskopie (AFM)",
-
-          instituteDuty3:
-            "Verantwortlich für Geräte und Ausstattung des SPM-Labors",
-
-          mathTeacher: "Lehrer für Mathematik",
-          physicsTeacher: "Lehrer für Physik",
-          gymnasium: "Gymnasium",
-
-          dmytrivkaUkraine: "Dmitriwka, Ukraine",
-          muzychiUkraine: "Muzychi, Ukraine",
-
-          trustedTeacher: "Vertrauenslehrer",
-
-          education: "Bildung",
-
-          tarasShevchenkoUniversity:
-            "Nationale Taras-Schewtschenko-Universität",
-
-          physicistTeacher: "Physiker, Lehrer",
-
-          universityEducationDescription:
-            "Schloss im Jahr 2003 das Studium an der Nationalen Taras-Schewtschenko-Universität Kiew in der Studienrichtung „Festkörperphysik“ erfolgreich ab und erwarb die Qualifikation „Physiker und Lehrer“.",
-
-          shpytkyUkraine: "Shpytky, Ukraine",
-
-          schoolGraduation: "Abschluss: Hochschulreife",
-
-          photoAlt: "Foto von Volodymyr Vyshniak",
-          contactInformation: "Kontaktinformationen",
-          phone: "Telefon:",
-          email: "E-Mail:",
-          resume: "Lebenslauf",
-
-          certificateEvaluation: "Zeugnisbewertung",
-
-          bachelorEvaluation:
-            "Zeugnisbewertung Bachelor.pdf",
-
-          specialistEvaluation:
-            "Zeugnisbewertung Spezialist.pdf",
-
-          additionalInformation:
-            "Zusätzliche Informationen",
-        },
-
-        uk: {
-          pageTitle: "Резюме – Володимир Вишняк",
-          languageSelector: "Вибрати мову",
-
-          profession:
-            "Фізик-експериментатор | старший викладач",
-
-          intro:
-            "Я фізик-експериментатор з України з досвідом роботи у школах, інституті та університеті. В Інституті металофізики я працював у сфері нанотехнологій. В Університеті харчових технологій я працював старшим викладачем, викладав фізику та досліджував продукти бджільництва. Моя мета — робота в Німеччині, що відповідає моїй кваліфікації.",
-
-          scientificProfile: "Науковий профіль",
-          scopusProfile: "Профіль Scopus",
-          scopusStats: "[Документів: 7; h-індекс: 5]",
-          scholarProfile: "Профіль Google Scholar",
-
-          workExperience: "Досвід роботи",
-          deliveryDriver: "Водій-експедитор",
-          officialWebsite: "Офіційний сайт",
-          present: "дотепер",
-          fuldaGermany: "Фульда, Німеччина",
-
-          deliveryDuty1:
-            "Доставка страв до шкіл і дитячих садків",
-
-          deliveryDuty2:
-            "Забезпечення своєчасного та належного транспортування",
-
-          germanB2Course:
-            "Професійний мовний курс (німецька B2)",
-
-          integrationCourse:
-            "Інтеграційний курс B1",
-
-          physicsLecturer: "Викладач фізики",
-
-          nuft:
-            "Національний університет харчових технологій",
-
-          kyivUkraine: "Київ, Україна",
-
-          universityDuty1:
-            "Старший викладач кафедри фізики",
-
-          universityDuty2:
-            "Проведення лекційних, практичних і лабораторних занять з фізики",
-
-          universityDuty3:
-            "Напрям наукових досліджень: «Фізичні методи контролю показників якості та безпечності продуктів бджільництва»",
-
-          universityDuty4:
-            "Відповідальний за дистанційне навчання та виховну роботу на кафедрі",
-
-          workingGroupMember: "Член робочої групи",
-
-          beekeepingDevelopment:
-            "з розвитку бджільництва",
-
-          workingGroupDuty:
-            "Член робочої групи з розвитку бджільництва при Міністерстві аграрної політики та продовольства України",
-
-          researchAssociate: "Науковий співробітник",
-
-          instituteMetalPhysics: "Інститут металофізики",
-
-          instituteDuty1:
-            "Співробітник відділу спектроскопії поверхні твердого тіла",
-
-          spmLab: "Лабораторія СЗМ",
-
-          spmWebsite:
-            "Сайт лабораторії СЗМ",
-
-          instituteDuty2:
-            "Проведення та технічне забезпечення експериментів в умовах надвисокого вакууму (UHV) за допомогою сканувального зондового мікроскопа JSPM-4610 (Японія)",
-
-          stm:
-            "Сканувальна тунельна мікроскопія (STM) напівпровідникових структур",
-
-          xps:
-            "Рентгенівська фотоелектронна спектроскопія (XPS)",
-
-          afm:
-            "Атомно-силова мікроскопія (AFM)",
-
-          instituteDuty3:
-            "Відповідальний за прилади й обладнання лабораторії СЗМ",
-
-          mathTeacher: "Учитель математики",
-          physicsTeacher: "Учитель фізики",
-          gymnasium: "Гімназія",
-
-          dmytrivkaUkraine: "Дмитрівка, Україна",
-          muzychiUkraine: "Музичі, Україна",
-
-          trustedTeacher: "Викладання фізики в 7 - 9 класах",
-
-          education: "Освіта",
-
-          tarasShevchenkoUniversity:
-            "Київський національний університет імені Тараса Шевченка",
-
-          physicistTeacher: "Фізик, викладач",
-
-          universityEducationDescription:
-            "У 2003 році закінчив Київський національний університет імені Тараса Шевченка за спеціальністю «Фізика твердого тіла» та здобув кваліфікацію «Фізик, викладач».",
-
-          shpytkyUkraine: "Шпитьки, Україна",
-
-          schoolGraduation:
-            "Документ про освіту: атестат про повну загальну середню освіту",
-
-          photoAlt: "Фотографія Володимира Вишняка",
-
-          contactInformation:
-            "Контактна інформація",
-
-          phone: "Телефон:",
-          email: "Електронна пошта:",
-          resume: "Резюме",
-
-          certificateEvaluation:
-            "Оцінювання дипломів",
-
-          bachelorEvaluation:
-            "Оцінювання диплома бакалавра.pdf",
-
-          specialistEvaluation:
-            "Оцінювання диплома спеціаліста.pdf",
-
-          additionalInformation:
-            "Додаткова інформація",
-        },
-
-        en: {
-          pageTitle: "CV – Volodymyr Vyshniak",
-          languageSelector: "Select language",
-
-          profession:
-            "Experimental Physicist | Senior Lecturer",
-
-          intro:
-            "I am an experimental physicist from Ukraine with professional experience at schools, a research institute, and a university. At the Institute for Metal Physics, I worked in the field of nanotechnology. At the National University of Food Technologies, I worked as a Senior Lecturer, taught physics, and researched bee products. My goal is to find a position in Germany that matches my qualifications.",
-
-          scientificProfile: "Scientific Profile",
-          scopusProfile: "Scopus Profile",
-          scopusStats: "[Documents: 7; h-index: 5]",
-          scholarProfile: "Google Scholar Profile",
-
-          workExperience: "Work Experience",
-          deliveryDriver: "Delivery Driver",
-          officialWebsite: "Official website",
-          present: "present",
-          fuldaGermany: "Fulda, Germany",
-
-          deliveryDuty1:
-            "Delivery of meals to schools and kindergartens",
-
-          deliveryDuty2:
-            "Ensuring timely and proper transportation",
-
-          germanB2Course:
-            "Vocational Language Course (German B2)",
-
-          integrationCourse:
-            "B1 Integration Course",
-
-          physicsLecturer: "Physics Lecturer",
-
-          nuft:
-            "National University of Food Technologies",
-
-          kyivUkraine: "Kyiv, Ukraine",
-
-          universityDuty1:
-            "Senior Lecturer at the Department of Physics",
-
-          universityDuty2:
-            "Teaching lectures, practical classes, and laboratory classes in physics",
-
-          universityDuty3:
-            "Research area: “Physical methods for monitoring the quality and safety parameters of bee products”",
-
-          universityDuty4:
-            "Responsible for distance learning and educational work at the department",
-
-          workingGroupMember:
-            "Member of the Working Group",
-
-          beekeepingDevelopment:
-            "for Beekeeping Development",
-
-          workingGroupDuty:
-            "Member of the Working Group for Beekeeping Development at the Ministry of Agrarian Policy and Food of Ukraine",
-
-          researchAssociate: "Research Associate",
-
-          instituteMetalPhysics:
-            "Institute for Metal Physics",
-
-          instituteDuty1:
-            "Researcher in the Department of Solid-State Surface Spectroscopy",
-
-          spmLab: "SPM Laboratory",
-          spmWebsite: "SPM website",
-
-          instituteDuty2:
-            "Conducting and maintaining ultra-high-vacuum (UHV) experiments using a JSPM-4610 scanning probe microscope (Japan)",
-
-          stm:
-            "Scanning tunneling microscopy (STM) of semiconductor structures",
-
-          xps:
-            "X-ray photoelectron spectroscopy (XPS)",
-
-          afm: "Atomic force microscopy (AFM)",
-
-          instituteDuty3:
-            "Responsible for the instruments and equipment of the SPM Laboratory",
-
-          mathTeacher: "Mathematics Teacher",
-          physicsTeacher: "Physics Teacher",
-          gymnasium: "Gymnasium",
-
-          dmytrivkaUkraine:
-            "Dmytrivka, Ukraine",
-
-          muzychiUkraine:
-            "Muzychi, Ukraine",
-
-          trustedTeacher: "Trusted Teacher",
-
-          education: "Education",
-
-          tarasShevchenkoUniversity:
-            "Taras Shevchenko National University of Kyiv",
-
-          physicistTeacher:
-            "Physicist, Teacher",
-
-          universityEducationDescription:
-            "In 2003, I graduated from Taras Shevchenko National University of Kyiv with a degree in Solid-State Physics and obtained the qualification of Physicist and Teacher.",
-
-          shpytkyUkraine: "Shpytky, Ukraine",
-
-          schoolGraduation:
-            "Qualification: university entrance certificate",
-
-          photoAlt: "Photo of Volodymyr Vyshniak",
-
-          contactInformation:
-            "Contact Information",
-
-          phone: "Phone:",
-          email: "Email:",
-          resume: "CV",
-
-          certificateEvaluation:
-            "Certificate Evaluation",
-
-          bachelorEvaluation:
-            "Bachelor’s Degree Evaluation.pdf",
-
-          specialistEvaluation:
-            "Specialist Diploma Evaluation.pdf",
-
-          additionalInformation:
-            "Additional Information",
-        },
-      };
-
-      const languageButtons =
-        document.querySelectorAll(".language-button");
-
-      function setLanguage(language) {
-        const selectedTranslation =
-          translations[language] || translations.de;
-
-        document.documentElement.lang = language;
-        document.title = selectedTranslation.pageTitle;
-
-        document
-          .querySelectorAll("[data-i18n]")
-          .forEach((element) => {
-            const key = element.dataset.i18n;
-
-            if (selectedTranslation[key]) {
-              element.textContent =
-                selectedTranslation[key];
-            }
-          });
-
-        document
-          .querySelectorAll("[data-i18n-title]")
-          .forEach((element) => {
-            const key = element.dataset.i18nTitle;
-
-            if (selectedTranslation[key]) {
-              element.title = selectedTranslation[key];
-            }
-          });
-
-        document
-          .querySelectorAll("[data-i18n-alt]")
-          .forEach((element) => {
-            const key = element.dataset.i18nAlt;
-
-            if (selectedTranslation[key]) {
-              element.alt = selectedTranslation[key];
-            }
-          });
-
-        document
-          .querySelectorAll("[data-i18n-aria-label]")
-          .forEach((element) => {
-            const key = element.dataset.i18nAriaLabel;
-
-            if (selectedTranslation[key]) {
-              element.setAttribute(
-                "aria-label",
-                selectedTranslation[key],
-              );
-            }
-          });
-
-        languageButtons.forEach((button) => {
-          const isActive =
-            button.dataset.lang === language;
-
-          button.classList.toggle(
-            "active",
-            isActive,
-          );
-
-          button.setAttribute(
-            "aria-pressed",
-            String(isActive),
-          );
+      const supportedLanguages = ["de", "ua", "en"];
+
+      function showLanguage(language, updateAddress = true) {
+        const selectedLanguage = supportedLanguages.includes(language)
+          ? language
+          : "de";
+
+        document.querySelectorAll("[data-language-page]").forEach((page) => {
+          const isSelected = page.dataset.languagePage === selectedLanguage;
+          page.classList.toggle("is-active", isSelected);
+
+          if (isSelected) {
+            document.title = page.dataset.pageTitle;
+          }
         });
 
-        try {
-          localStorage.setItem(
-            "resumeLanguage",
-            language,
-          );
-        } catch (error) {
-          // Сторінка працюватиме без збереження мови.
+        document.querySelectorAll("[data-language]").forEach((button) => {
+          const isSelected = button.dataset.language === selectedLanguage;
+          button.classList.toggle("is-active", isSelected);
+          button.setAttribute("aria-pressed", String(isSelected));
+        });
+
+        document.documentElement.lang = selectedLanguage === "ua" ? "uk" : selectedLanguage;
+
+        if (updateAddress) {
+          history.replaceState(null, "", `#${selectedLanguage}`);
+          window.scrollTo({ top: 0, behavior: "auto" });
         }
       }
 
-      languageButtons.forEach((button) => {
+      document.querySelectorAll("[data-language]").forEach((button) => {
         button.addEventListener("click", () => {
-          setLanguage(button.dataset.lang);
+          showLanguage(button.dataset.language);
         });
       });
 
-      let savedLanguage = "de";
+      const languageFromAddress = window.location.hash.slice(1).toLowerCase();
+      showLanguage(languageFromAddress, false);
 
-      try {
-        savedLanguage =
-          localStorage.getItem("resumeLanguage") || "de";
-      } catch (error) {
-        savedLanguage = "de";
-      }
+      document.querySelectorAll(".download-link").forEach((link) => {
+        link.addEventListener("click", function (event) {
+          event.preventDefault();
+          const fileUrl = this.href;
 
-      setLanguage(
-        translations[savedLanguage]
-          ? savedLanguage
-          : "de",
-      );
+          window.open(fileUrl, "_blank");
 
-      document
-        .querySelectorAll(".download-link")
-        .forEach((link) => {
-          link.addEventListener(
-            "click",
-            function (event) {
-              event.preventDefault();
-
-              const fileUrl = this.href;
-
-              window.open(fileUrl, "_blank");
-
-              const tempLink =
-                document.createElement("a");
-
-              tempLink.href = fileUrl;
-
-              tempLink.setAttribute(
-                "download",
-                this.textContent.trim(),
-              );
-
-              document.body.appendChild(tempLink);
-              tempLink.click();
-              document.body.removeChild(tempLink);
-            },
-          );
+          const tempLink = document.createElement("a");
+          tempLink.href = fileUrl;
+          tempLink.setAttribute("download", this.textContent.trim());
+          document.body.appendChild(tempLink);
+          tempLink.click();
+          document.body.removeChild(tempLink);
         });
+      });
     </script>
   </body>
 </html>

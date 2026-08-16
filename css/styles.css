@@ -22,56 +22,6 @@ ol {
   align-items: flex-start;
 }
 
-/* Language switcher */
-
-.language-switcher {
-  position: fixed;
-  top: 12px;
-  right: 12px;
-  z-index: 1000;
-  display: flex;
-  gap: 4px;
-  padding: 5px;
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid #d7e2f6;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(22, 29, 42, 0.12);
-}
-
-.language-button {
-  min-width: 42px;
-  padding: 8px 10px;
-  border: 0;
-  border-radius: 7px;
-  background: transparent;
-  color: #161d2a;
-  font-family: inherit;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1;
-  cursor: pointer;
-  transition:
-    color 0.2s ease,
-    background-color 0.2s ease,
-    transform 0.2s ease;
-}
-
-.language-button:hover {
-  color: #003bb5;
-  background: #edf3ff;
-  transform: translateY(-1px);
-}
-
-.language-button:focus-visible {
-  outline: 3px solid rgba(0, 95, 255, 0.3);
-  outline-offset: 2px;
-}
-
-.language-button.active {
-  color: #ffffff;
-  background: #005fff;
-}
-
 /* Main content */
 
 .main-content {
@@ -211,7 +161,7 @@ ol {
   word-break: normal;
   overflow-wrap: normal;
 
-  text-indent: 20px;
+  text-indent: 20px; /* відступ першого рядка */
 }
 
 .my-descr {
@@ -371,7 +321,7 @@ ol {
 
 /* ===== RESPONSIVE ===== */
 
-/* Tablet */
+/* Tablet (до 1280px) */
 @media (max-width: 1280px) {
   body {
     padding: 16px;
@@ -396,22 +346,12 @@ ol {
   }
 }
 
-/* Mobile */
+/* Mobile (до 640px) */
 @media (max-width: 640px) {
   body {
     margin: 0;
     padding: 0;
     background: #ffffff;
-  }
-
-  .language-switcher {
-    top: 8px;
-    right: 8px;
-  }
-
-  .language-button {
-    min-width: 38px;
-    padding: 7px 8px;
   }
 
   .wrapper {
@@ -425,7 +365,7 @@ ol {
   .sidebar {
     order: -1;
     width: 100%;
-    padding: 56px 20px 24px;
+    padding: 24px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -479,5 +419,119 @@ ol {
   .my-info,
   .my-projects-container {
     margin-bottom: 24px;
+  }
+
+  /* 02_04-2026_04-20 */
+}
+
+/* ==============================================================
+   ДОДАНІ СТИЛІ: мовні версії, перемикач і підпис під фото.
+   Усі початкові стилі вище залишені без глобальної перебудови.
+   ============================================================== */
+
+.language-page {
+  display: none;
+}
+
+.language-page.is-active {
+  display: block;
+}
+
+.language-page .wrapper {
+  position: relative;
+}
+
+.language-switcher {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  z-index: 10;
+  display: flex;
+  gap: 7px;
+  padding: 7px;
+  background: #ffffff;
+  border: 1px solid #d8e0ee;
+  border-radius: 17px;
+  box-shadow: 0 1px 4px rgb(22 29 42 / 8%);
+}
+
+.language-button {
+  min-width: 58px;
+  height: 46px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 11px;
+  background: transparent;
+  color: #161d2a;
+  font-family: "Inter", "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.language-button:hover {
+  background: #edf3ff;
+  transform: translateY(-1px);
+}
+
+.language-button.is-active,
+.language-button.is-active:hover {
+  background: #0866ff;
+  color: #ffffff;
+  transform: none;
+}
+
+.language-button:focus-visible {
+  outline: 3px solid #8eb7ff;
+  outline-offset: 2px;
+}
+
+.mobile-photo-name {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .language-switcher {
+    top: 12px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .sidebar {
+    padding-top: 88px;
+  }
+
+  .mobile-photo-name {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: #161d2a;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .main-content .my-name {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .language-switcher {
+    gap: 4px;
+    padding: 5px;
+  }
+
+  .language-button {
+    min-width: 52px;
+    height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
   }
 }
