@@ -425,68 +425,63 @@ ol {
 }
 
 /* ==============================================================
-   ДОДАНІ СТИЛІ: мовні версії, перемикач і підпис під фото.
+   ДОДАНІ СТИЛІ: перемикач мов і мобільний підпис під фото.
    Усі початкові стилі вище залишені без глобальної перебудови.
    ============================================================== */
 
-.language-page {
-  display: none;
-}
-
-.language-page.is-active {
-  display: block;
-}
-
-.language-page .wrapper {
+.wrapper {
   position: relative;
 }
 
 .language-switcher {
   position: absolute;
-  top: 12px;
-  right: 16px;
+  top: 10px;
+  right: 10px;
   z-index: 10;
   display: flex;
-  gap: 7px;
-  padding: 7px;
+  gap: 3px;
+  padding: 4px;
   background: #ffffff;
   border: 1px solid #d8e0ee;
-  border-radius: 17px;
-  box-shadow: 0 1px 4px rgb(22 29 42 / 8%);
+  border-radius: 11px;
+  box-shadow: 0 1px 3px rgb(22 29 42 / 8%);
 }
 
-.language-button {
-  min-width: 58px;
-  height: 46px;
-  padding: 0 14px;
-  border: 0;
-  border-radius: 11px;
+.language-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 32px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  border-radius: 7px;
   background: transparent;
   color: #161d2a;
   font-family: "Inter", "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1;
-  cursor: pointer;
+  text-decoration: none;
   transition:
     color 0.2s ease,
     background-color 0.2s ease,
     transform 0.2s ease;
 }
 
-.language-button:hover {
+.language-link:hover {
   background: #edf3ff;
   transform: translateY(-1px);
 }
 
-.language-button.is-active,
-.language-button.is-active:hover {
+.language-link.is-active,
+.language-link.is-active:hover {
   background: #0866ff;
   color: #ffffff;
   transform: none;
 }
 
-.language-button:focus-visible {
+.language-link:focus-visible {
   outline: 3px solid #8eb7ff;
   outline-offset: 2px;
 }
@@ -497,13 +492,13 @@ ol {
 
 @media (max-width: 640px) {
   .language-switcher {
-    top: 12px;
+    top: 10px;
     right: 50%;
     transform: translateX(50%);
   }
 
   .sidebar {
-    padding-top: 88px;
+    padding-top: 60px;
   }
 
   .mobile-photo-name {
@@ -524,14 +519,14 @@ ol {
 
 @media (max-width: 360px) {
   .language-switcher {
-    gap: 4px;
-    padding: 5px;
+    gap: 2px;
+    padding: 3px;
   }
 
-  .language-button {
-    min-width: 52px;
-    height: 42px;
-    padding: 0 10px;
-    font-size: 18px;
+  .language-link {
+    min-width: 36px;
+    height: 30px;
+    padding: 0 7px;
+    font-size: 13px;
   }
 }
